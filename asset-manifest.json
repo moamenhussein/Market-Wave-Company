@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Market-Wave-Company/static/css/main.31c4f6a4.css",
+    "main.js": "/Market-Wave-Company/static/js/main.0c7053cb.js",
+    "static/js/453.d349478d.chunk.js": "/Market-Wave-Company/static/js/453.d349478d.chunk.js",
+    "static/media/error.gif": "/Market-Wave-Company/static/media/error.4b5472f14025469a16d7.gif",
+    "static/media/work2.webp": "/Market-Wave-Company/static/media/work2.fc6d53a0caf70059d313.webp",
+    "static/media/blog4.webp": "/Market-Wave-Company/static/media/blog4.1aabe7d81899c08b048c.webp",
+    "static/media/project3.webp": "/Market-Wave-Company/static/media/project3.e6dd0b90957ecbee5595.webp",
+    "static/media/project1.webp": "/Market-Wave-Company/static/media/project1.61798c21c9ab5a971bb4.webp",
+    "static/media/work1.webp": "/Market-Wave-Company/static/media/work1.61798c21c9ab5a971bb4.webp",
+    "static/media/logo.png": "/Market-Wave-Company/static/media/logo.0eed3ef8bdfd976315d2.png",
+    "static/media/project4.webp": "/Market-Wave-Company/static/media/project4.c3c971884e804ec66a33.webp",
+    "static/media/blog2.webp": "/Market-Wave-Company/static/media/blog2.a0761f26b6508fda5ae3.webp",
+    "static/media/blog1.webp": "/Market-Wave-Company/static/media/blog1.181fa8d7772855281eb1.webp",
+    "static/media/blog3.webp": "/Market-Wave-Company/static/media/blog3.b9754df536f69d0d5599.webp",
+    "static/media/project2.webp": "/Market-Wave-Company/static/media/project2.392714ad15280f6d6b14.webp",
+    "static/media/person3.jpeg": "/Market-Wave-Company/static/media/person3.35b3cc80b5603e761a3d.jpeg",
+    "static/media/person1.webp": "/Market-Wave-Company/static/media/person1.6d4043b33a94b16d65c0.webp",
+    "static/media/services2.svg": "/Market-Wave-Company/static/media/services2.74d9e3d913e03677c0ac093975179c5b.svg",
+    "static/media/person2.webp": "/Market-Wave-Company/static/media/person2.191068b8dba9eba0eb0d.webp",
+    "static/media/story.avif": "/Market-Wave-Company/static/media/story.d2921176910ecdc5dd73.avif",
+    "static/media/services3.svg": "/Market-Wave-Company/static/media/services3.bba3ce7559f9bac7e34f56ea8082b0c2.svg",
+    "static/media/client3.webp": "/Market-Wave-Company/static/media/client3.b55cc6478c8a7fe3267f.webp",
+    "static/media/client4.webp": "/Market-Wave-Company/static/media/client4.ed8bc8c0468cbfc7fe84.webp",
+    "static/media/client6.webp": "/Market-Wave-Company/static/media/client6.e3e3b07ffa30c9d47cf1.webp",
+    "static/media/rocket.svg": "/Market-Wave-Company/static/media/rocket.b2acd12277253c78e4b2e1326652eab4.svg",
+    "static/media/services1.svg": "/Market-Wave-Company/static/media/services1.b2acd12277253c78e4b2e1326652eab4.svg",
+    "static/media/client2.webp": "/Market-Wave-Company/static/media/client2.37a6da2a1d14cf7ab975.webp",
+    "static/media/client5.webp": "/Market-Wave-Company/static/media/client5.d5cd85383023a2dbc385.webp",
+    "static/media/client1.webp": "/Market-Wave-Company/static/media/client1.ccb5785e8713a103e8e4.webp",
+    "static/media/logo.svg": "/Market-Wave-Company/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Market-Wave-Company/index.html",
+    "main.31c4f6a4.css.map": "/Market-Wave-Company/static/css/main.31c4f6a4.css.map",
+    "main.0c7053cb.js.map": "/Market-Wave-Company/static/js/main.0c7053cb.js.map",
+    "453.d349478d.chunk.js.map": "/Market-Wave-Company/static/js/453.d349478d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c4f6a4.css",
+    "static/js/main.0c7053cb.js"
+  ]
+}

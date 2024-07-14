@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Market-Wave-Company/static/css/main.31c4f6a4.css",
+    "main.css": "/Market-Wave-Company/static/css/main.a7363579.css",
     "main.js": "/Market-Wave-Company/static/js/main.0c7053cb.js",
     "static/js/453.d349478d.chunk.js": "/Market-Wave-Company/static/js/453.d349478d.chunk.js",
     "static/media/error.gif": "/Market-Wave-Company/static/media/error.4b5472f14025469a16d7.gif",
@@ -31,12 +31,12 @@
     "static/media/client1.webp": "/Market-Wave-Company/static/media/client1.ccb5785e8713a103e8e4.webp",
     "static/media/logo.svg": "/Market-Wave-Company/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Market-Wave-Company/index.html",
-    "main.31c4f6a4.css.map": "/Market-Wave-Company/static/css/main.31c4f6a4.css.map",
+    "main.a7363579.css.map": "/Market-Wave-Company/static/css/main.a7363579.css.map",
     "main.0c7053cb.js.map": "/Market-Wave-Company/static/js/main.0c7053cb.js.map",
     "453.d349478d.chunk.js.map": "/Market-Wave-Company/static/js/453.d349478d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c4f6a4.css",
+    "static/css/main.a7363579.css",
     "static/js/main.0c7053cb.js"
   ]
 }

@@ -1,0 +1,14 @@
+.clients {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+.clients h3 {
+  text-align: center;
+  color: #444;
+}
+.images {
+  margin-top: 40px !important;
+}
+.images img {
+  width: 180px ;
+}

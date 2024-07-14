@@ -1,0 +1,81 @@
+.blog {
+  background-color: #fff;
+  padding: 100px 0;
+}
+.blog .info {
+  text-align: center;
+  color: var(--fourth-color);
+}
+.blog .info h4 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.blog .info p {
+  font-size: 22px;
+}
+.blogInfo {
+  margin-top: 80px;
+}
+.blogInfo img {
+  width: 320px;
+  border: 10px solid #FFF;
+}
+.blogInfo .info {
+  background-color: #f9f9f9;
+  width: 250px;
+  margin-left: 10px;
+  position: relative;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 20px 0 !important;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.blog button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  background-color: var(--fourth-color);
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.blog button:hover {
+  background-color: #075994;
+}
+@media(max-width: 992px) {
+  .blog .info h4 {
+    font-size: 30px;
+  }
+  .blog .info p {
+    font-size: 18px;
+  }
+  .blogInfo .info {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,89 @@
+
+.contact .info {
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--third-color)
+  );
+  color: white;
+  text-align: center;
+}
+.contact .info h3 {
+  font-size: 80px;
+}
+.contact .info p {
+  font-size: 25px;
+  color: var(--fourth-color);
+}
+@media (max-width: 992px) {
+  .contact .info h3 {
+    font-size: 40px;
+  }
+  .contact .info p {
+    font-size: 20px;
+  }
+}
+.contactUs {
+  background-color: #f4f4f4 !important;
+  padding: 80px 0;
+}
+.contactUs i {
+  color: var(--fourth-color);
+  font-size: 35px;
+}
+.contactUs h6 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.contactUs p {
+  margin-top: 20px;
+  font-size: 22px;
+}
+@media (max-width: 992px) {
+  .contactUs .box {
+    margin-top: 30px !important;
+  }
+}
+.form .information {
+  padding: 50px 0;
+  text-align: center;
+}
+.form .information h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.form .information p {
+  font-size: 20px;
+  color: var(--fourth-color);
+}
+form {
+  padding: 80px 0;
+}
+form input,
+form textarea {
+  position: relative;
+  padding: 10px;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-bottom: 20px;
+  caret-color: var(--fourth-color);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 2px solid var(--fourth-color);
+}
+form input:focus,
+form textarea:focus {
+  outline: none;
+}
+form textarea {
+  height: 200px;
+  resize: none;
+}

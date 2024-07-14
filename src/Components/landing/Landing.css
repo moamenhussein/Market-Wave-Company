@@ -1,0 +1,94 @@
+.landing {
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--third-color)
+  );
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.landing .info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.landing .info h3 {
+  margin-top: 80px;
+  font-size: 80px;
+}
+.landing .info p {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.landing .buttons {
+  margin-top: 60px;
+}
+.landing .buttons a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+.landing .buttons .touch,
+.landing .buttons .aboutComp {
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.landing .buttons .touch {
+  background-color: var(--fourth-color);
+  border: 2px solid var(--fourth-color);
+}
+.landing .buttons .touch:hover {
+  background-color: transparent;
+}
+.landing .buttons .aboutComp {
+  margin-left: 40px;
+  background-color: var(--second-color);
+  border: 2px solid var(--second-color);
+}
+.landing .buttons .aboutComp:hover {
+  background-color: transparent;
+}
+.landing img {
+  width: 450px;
+}
+@media (max-width: 992px) {
+  .landing .info {
+    text-align: center;
+  }
+  .landing .info h3 {
+    font-size: 40px;
+    margin-top: 150px;
+  }
+  .landing .info p {
+    font-size: 25px;
+  }
+  .landing .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .landing .buttons .aboutComp {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .landing img {
+    margin-top: -20px;
+    width: 250px;
+  }
+}

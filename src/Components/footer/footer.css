@@ -1,0 +1,87 @@
+.footer {
+  padding: 60px 0;
+  padding-bottom: 20px;
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--third-color)
+  );
+  color: white;
+  border-bottom: 2px solid #d4d1d1;
+}
+.footerLogo {
+  width: 220px;
+}
+.social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+li .facebook,
+li .github,
+li .linkedin,
+li .insta,
+li .whats {
+  color: white;
+  padding: 8px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.social li .facebook {
+  background-color: #1877f2;
+}
+.social li .github {
+  background-color: #6e5494;
+}
+.social li .linkedin {
+  background-color: #0a66c2;
+}
+.social li .insta {
+  background-color: #fd1d1d;
+}
+.social li .whats {
+  background-color: #128c7e;
+}
+.social li a i {
+  font-size: 25px;
+}
+ul {
+  margin-left: -30px !important;
+}
+ul li {
+  padding: 10px 0;
+}
+.infoLinks li a {
+  text-decoration: none;
+  color: white;
+}
+.infoLinks li a:hover {
+  color: var(--second-color);
+}
+.footer .number {
+  font-size: 25px;
+}
+.footer .email {
+  font-size: 17px;
+}
+@media (max-width: 992px) {
+  .footer h4 {
+    margin-top: 30px;
+  }
+}
+.footerTwo {
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--third-color)
+  );
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.footerTwo a {
+  text-decoration: none;
+  color: var(--fourth-color);
+  font-weight: bold;
+}

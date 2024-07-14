@@ -1,0 +1,40 @@
+.story {
+  padding-top: 100px;
+}
+.story .info {
+  text-align: center;
+}
+.story .info h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.story .info p {
+  font-size: 25px;
+  color: var(--fourth-color);
+}
+.story .storyInformation {
+  margin-top: 50px;
+}
+.story .storyInformation .headerAndParagraph {
+  margin-top: 100px;
+}
+.story .storyInformation .headerAndParagraph p {
+  margin-top: 30px;
+}
+@media(max-width: 992px) {
+  .story img {
+    width: 300px;
+    margin-left: 15px;
+  }
+  .story .info p {
+    font-size: 20px;
+  }
+}
+.storyInfo {
+  margin-top: 60px;
+}
+.storyInfo h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--fourth-color);
+}

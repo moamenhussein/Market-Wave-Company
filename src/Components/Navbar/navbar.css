@@ -1,0 +1,70 @@
+nav {
+  background-image: linear-gradient(to right,var(--main-color), var(--third-color));
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  width: fit-content;
+  color: #FFF !important;
+  font-size: 20px;
+  margin-left: 25px;
+}
+nav img {
+  width: 220px;
+}
+nav .contact {
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-color: var(--second-color);
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border: 1px solid var(--second-color);
+}
+@media(Max-width: 1000px) {
+  nav .contact {
+    margin-top: 20px;
+  }
+}
+nav .contact:hover {
+  background-color: var(--main-color);
+
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  background-color: var(--second-color);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):focus {
+  box-shadow: none;
+}
+[type=button]:not(:disabled) a, [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) a {
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  position: relative;
+}
+.navbar-nav .nav-link.active::after, .navbar-nav .nav-link.show:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--second-color);
+  left: 0px;
+  bottom: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.navbar-nav .nav-link.active:hover::after, .navbar-nav .nav-link.show:hover::after {
+  width: 100%;
+}

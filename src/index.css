@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #081c3a;
+  --second-color: #ff7f22;
+  --third-color: #153b62;
+  --fourth-color: #1091ef;
+}
+li {
+  list-style: none;
+}

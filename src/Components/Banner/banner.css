@@ -1,0 +1,20 @@
+.headerAbout {
+  /* margin-top: 80px; */
+  padding: 100px 0;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--third-color)
+  );
+  color: white;
+}
+.headerAbout h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.headerAbout p {
+  color: var(--fourth-color);
+  margin-top: 20px;
+  font-size: 22px;
+}

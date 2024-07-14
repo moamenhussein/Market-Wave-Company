@@ -1,0 +1,69 @@
+.team {
+  padding-top: 80px;
+  background-color: #f4f4f4;
+}
+.team .info {
+  text-align: center;
+  padding: 30px 0;
+}
+.team .info h3 {
+  font-size: 40px;
+}
+.team .info p {
+  color: var(--fourth-color);
+  font-size: 20px;
+}
+.team img {
+  width: 350px;
+}
+.teamInfo {
+  position: relative;
+  width: 350px;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 50px 0;
+}
+.teamInfo h6 {
+  color: var(--fourth-color);
+}
+.teamInfo button {
+  padding: 10px 30px;
+  margin-top: 15px;
+  border: none;
+  background-color: var(--fourth-color);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.teamInfo button:hover {
+  background-color: #085790;
+}
+.infoTwo {
+  padding: 80px 0;
+}
+.infoTwo h4 {
+  font-size: 30px;
+}
+@media(max-width: 992px) {
+  .team img,
+  .teamInfo {
+    width: 300px;
+  }
+  .infoTwo h4 {
+    font-size: 22px;
+  }
+}
